@@ -5,7 +5,7 @@ import { MessagesSvg, MusicsSvg, NewsSvg, ProfileSvg, SettingsSvg } from "./Svg/
 const Navbar = ({isClosed}) => {
   const navItems = [
     { name: "profile", svg: <ProfileSvg /> },
-    { name: "messages", svg: <MessagesSvg /> },
+    { name: "message", svg: <MessagesSvg /> },
     { name: "news", svg: <NewsSvg /> },
     { name: "musics", svg: <MusicsSvg /> },
     { name: "settings", svg: <SettingsSvg /> },
