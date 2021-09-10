@@ -24,7 +24,7 @@ const App = ({initializeApp, initialized}) => {
 
   useEffect(() => initializeApp(), [initialized])
 
-  if (!initialized) return <Preloader />
+  // if (!initialized) return <Preloader />
   return (
     <Fragment> 
       <HeaderContainer toggleNavbar={toggleNavbar} />
