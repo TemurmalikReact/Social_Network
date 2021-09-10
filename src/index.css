@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("./fonts/monserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("./fonts/monserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline-color: #000;
+    font-family: "Montserrat Regular";
+    font-weight: bolder;
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+img {
+    object-fit: cover;
+    object-position: center center;
+}
+
+button {
+    cursor: pointer;
+}

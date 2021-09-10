@@ -1,0 +1,8 @@
+.preloader {
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 2;
+} 

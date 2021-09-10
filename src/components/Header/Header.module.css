@@ -1,0 +1,63 @@
+.header {
+  height: 100px;
+  padding: 0 27.5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: rgb(3, 13, 40);
+  border-bottom: 1px solid rgb(240, 240, 250);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.brand span {
+  font-size: 21px;
+  font-family: "Montserrat Regular";
+  font-weight: 900;
+  color: rgb(90, 95, 125);
+  margin-left: 10px;
+}
+
+.toggle {
+  padding: 15px 12px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.05s linear;
+}
+
+.toggle:hover {
+  background: rgba(75, 85, 135, 0.4);
+  box-shadow: 0 0 5px 1px rgba(70, 80, 135, 0.6);
+  cursor: pointer;
+}
+
+.toggle div {
+  height: 6px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 4px 0;
+  position: relative;
+  background: rgb(200, 205, 230);
+} 
+
+.login a {
+  letter-spacing: 2px;
+  color: rgb(200, 205, 230);
+} 
+
+.login {
+  cursor: pointer;
+  font-size: 19px;
+  color: rgb(200, 205, 230);
+} 
